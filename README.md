@@ -1,6 +1,7 @@
 **Resilient SMS API with Gammu and Python**
 
 **English version**
+
 This is a simple yet robust API built with Flask (Python) to serve as a bridge for a Gammu modem, allowing for asynchronous and network-failure-resilient SMS sending.
 
 Features
