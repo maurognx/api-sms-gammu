@@ -32,7 +32,7 @@ def tarefa_enviar_sms(numero, mensagem):
         tentativa_check += 1; print(f"[Thread para {numero}] Verificação de rede, tentativa {tentativa_check}...")
         try:
             resultado = subprocess.run(comando_check, capture_output=True, text=True, check=True, timeout=20)
-            if "Home network" in resultado.stdout:
+            if "home network" in resultado.stdout:
                 print(f"[Thread para {numero}] ✅ Rede OK! Modem registrado.")
                 break # Sai do loop de verificação e continua para o envio
             else:
@@ -107,4 +107,5 @@ def status():
     return jsonify({"status": "API de SMS (v11 - Fire and Forget) online"}), 200
 
 if __name__ == '__main__':
+
     app.run(host='0.0.0.0', port=5000)
