@@ -84,7 +84,9 @@ Monitoring
 The actual sending status (attempts, success, or failure) should be monitored via the console (standard output) where the Python script is running.
 
  **Versão em Portugues**
+ 
  **API de SMS Resiliente com Gammu e Python**
+ 
 
 Esta é uma API simples, porém robusta, construída com Flask (Python) para servir como uma ponte para um modem Gammu, permitindo o envio de SMS de forma assíncrona e resiliente a falhas de rede.
 
