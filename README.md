@@ -4,6 +4,8 @@
 ![Flask](https://img.shields.io/badge/flask-2.x-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 ![Status](https://img.shields.io/badge/status-active-success.svg)
+![Gammu](https://img.shields.io/badge/Gammu-SMS%20Gateway-orange)
+
 
 ## 📑 Table of Contents
 - [English Version](#english-version)  
