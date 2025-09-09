@@ -44,7 +44,8 @@ This is a simple yet robust API built with Flask (Python) to serve as a bridge f
 - Gammu installed, configured (`.gammurc`), and functional via the command line.  
 - A USB modem (3G/4G dongle) with a SIM card with the PIN request disabled.  
 - Power management disabled via `/etc/modprobe.d`.  
-- If your modem emulates a flash drive and a USB modem, disable `usb_storage` by blacklisting it via `/etc/modprobe`.  
+- If your modem emulates a flash drive and a USB modem, disable `usb_storage` by blacklisting it via `/etc/modprobe`.
+- FreeBSD is supported
 
 ### Installation
 Clone this repository:
@@ -122,7 +123,8 @@ Esta é uma API simples, porém robusta, construída com Flask (Python) para ser
 - Gammu instalado, configurado (`.gammurc`) e funcional via linha de comando.  
 - Um modem USB (dongle 3G/4G) com um chip (SIM card) com o pedido de PIN desativado.  
 - Gerenciamento de energia desligado via `/etc/modprobe.d`.  
-- Se seu modem emula um pendrive e também modem USB, desligue o `usb_storage` ativando a blacklist via `/etc/modprobe`.  
+- Se seu modem emula um pendrive e também modem USB, desligue o `usb_storage` ativando a blacklist via `/etc/modprobe`.
+- FreeBSD é suportado
 
 ### Instalação
 Clone este repositório:
